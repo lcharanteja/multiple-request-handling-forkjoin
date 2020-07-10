@@ -1,0 +1,9 @@
+<hello name="{{ userName }}"></hello>
+<h2>You have {{posts.length}} posts</h2>
+<ul>
+  <li *ngFor="let post of posts">{{post.title}}</li>
+</ul>
+<h2>You have {{albums.length}} albums</h2>
+<ul>
+  <li *ngFor="let album of albums">{{album.title}}</li>
+</ul>
